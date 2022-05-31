@@ -79,7 +79,7 @@ const Form = ({ id, data, handleClose, open, wishListCategories }) => {
   return (
     <Dialog open={open} onClose={handleClose} fullWidth>
       <DialogTitle color="primary">
-        {id ? "Update" : "Add"} Wish List Category
+        {id ? "Update" : "Add"} Wish List Item
       </DialogTitle>
       <form autoComplete="off" onSubmit={handleSubmit}>
         <DialogContent>
