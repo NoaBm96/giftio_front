@@ -34,7 +34,7 @@ const GoogleSignin = () => {
 
   return (
     <GoogleLogin
-      clientId="681075102548-iiigef6m2qu3b5h6bhh2u70k76dakhvk.apps.googleusercontent.com"
+      clientId="783321821285-aturojtt7to3ocmo7bg1jgl6kju6r0p0.apps.googleusercontent.com"
       onSuccess={googleSuccess}
       onFailure={googleFailure}
       cookiePolicy="single_host_origin"
